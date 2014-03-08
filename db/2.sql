@@ -1,0 +1,1 @@
+ALTER TABLE `shringar`.`product_attribute` ADD COLUMN `sku` TINYINT(1) DEFAULT 0 NULL AFTER `product_header_id`;

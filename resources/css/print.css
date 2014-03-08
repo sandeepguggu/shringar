@@ -1,0 +1,93 @@
+/* 
+    Document   : print
+    Created on : May 24, 2012, 6:45:02 PM
+    Author     : langoor
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.container-fluid {
+    padding: 0px !important;
+}
+
+.header-wrapper {
+    display: none;
+}
+
+.content {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    min-height: 0px;
+}
+
+.ui-tabs {
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+}
+
+.ui-tabs-nav {
+    display: none;
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ui-tabs-panel {
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.ui-tabs-panel > * {
+    display: none;
+}
+
+.ui-tabs-panel #print-area {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+
+.my-table1 {
+    width: 100%;
+}
+
+.print {
+    width: 100%;
+}
+
+.block .mini-receipt {
+    width: 100% !important;
+}
+
+.content-footer {
+    display: none;
+}
+
+button, a.btn {
+    display: none;
+}
+
+.mini-receipt {
+    font-size: 10px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    overflow: visible !important;
+    margin-left: 10px !important;
+}
+
+table.table-mini-receipt {
+    width: 100% !important;
+}
+.hide-me {
+    display: none;
+}

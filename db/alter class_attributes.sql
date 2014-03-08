@@ -1,0 +1,1 @@
+ALTER TABLE `shringar`.`class_attribute` ADD COLUMN `deleted` TINYINT(1) DEFAULT 0 NULL AFTER `created_at`;
